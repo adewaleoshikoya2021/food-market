@@ -5,17 +5,17 @@
 replicaCount: 1
 
 image:
-  repository: ${deployment_image}
+  repository: nginx 
   pullPolicy: IfNotPresent
 
 app:
-  ports: 5000
+  ports: 8080
 
 globalEnvironments:
   enbled: true
   environments:
     name: ENVIRONMENT
-    value: ${deployment_environment}
+    value: dev
 
 imagePullSecrets: []
 nameOverride: ""
