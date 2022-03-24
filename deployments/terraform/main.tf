@@ -11,7 +11,7 @@ module "academy-deploy" {
   ## Deployment environment kubernetes namespace
   deployment_environment = "${var.deployment_environment}"
 
-  ## Deployment endpoint to see hello world application 
+  ## Deployment endpoint to see food market application 
   deployment_endpoint    = "${lookup(var.deployment_endpoint, "${var.deployment_environment}")}.${var.google_domain_name}"
 
   ## Deployment path which is local chart location 
@@ -24,7 +24,7 @@ module "academy-deploy" {
   }
 } 
 
-## Terraform output for hello world
+## Terraform output for food market
 output "application_endpoint" {
     value = "${lookup(var.deployment_endpoint, "${var.deployment_environment}")}.${var.google_domain_name}"
 }
