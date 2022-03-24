@@ -1,4 +1,4 @@
-hello-world:
+food-market:
   build: .
   ports:
   - "80:5000"

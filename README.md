@@ -1,5 +1,5 @@
 # Welcome to Hello world documentation
-#fuchicorp/work-sessions/hello-world 
+#fuchicorp/work-sessions/food-market 
 To deploy this application make sure you have followed the steps from the [Jenkins global library](https://github.com/fuchicorp/jenkins-global-library). Please make sure you have a job to build and deploy so it will be auto-triggered. If you will check the structure of the repo you will find two files `JenkinsBuilder.groovy` and `JenkinsDeployer.groovy` for build and deploy  
 
 
@@ -12,7 +12,7 @@ You should have exact same copy of these endpoints which means ENV.your-domain.c
 
 
 ## How can I check my hello world?
-If you will navigate to [hello-world](https://hello-world.fuchicorp.com/) application and find your name. You should be able see hello world endpoints and all common tools endpoints. Please make sure all environments are up and running for hello world
+If you will navigate to [food-market](https://food-market.fuchicorp.com/) application and find your name. You should be able see hello world endpoints and all common tools endpoints. Please make sure all environments are up and running for hello world
 
 
 ## What is hello world?
@@ -21,8 +21,8 @@ A "Hello, World!" program generally is a computer program that outputs or displa
 
 ---
 
-# How to run the hello-world with docker compose?
-This documentation describes how to run the hello-world using [docker compose](https://docs.docker.com/compose/gettingstarted/). 
+# How to run the food-market with docker compose?
+This documentation describes how to run the food-market using [docker compose](https://docs.docker.com/compose/gettingstarted/). 
 
 ## Before you begin
 1. Make sure you have docker is installed
@@ -31,13 +31,13 @@ This documentation describes how to run the hello-world using [docker compose](h
 
 First you will need to clone the repo 
 ```
-git clone git@github.com:fuchicorp/hello-world.git
+git clone git@github.com:fuchicorp/food-market.git
 ```
 
 
-after you cloned you will need to get into `hello-world/deployments/docker` 
+after you cloned you will need to get into `food-market/deployments/docker` 
 ```
-cd hello-world/deployments/docker
+cd food-market/deployments/docker
 ```
 
 Docker compose has environment variables configured see below all env 
